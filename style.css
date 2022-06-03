@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+html {
+    overflow-x: hidden;
+}
+* {
+    margin: 0 !important;
+}
+:root {
+    --default_font: 'Montserrat', sans-serif;
+    --title_font: 'Alfa Slab One', cursive;
+    --secendary_font: 'Bebas Neue', cursive;
+    --them_color: #3d2514;
+     --shadow: 4px 4px 2px#fff;
+     --red_color: #bf2222;
+}
+body {
+    color: var(--them_color);
+    font-family: var(--default_font);
+}
+.bike {
+    align-items: center;
+    padding-bottom: 25px;
+}
+.bike p{
+    font-size: 16.67px;
+}
+.bike img {
+    width: 44px;
+    height: 34px;
+    margin-right: 10px !important;
+}
+.navbar-collapse {
+    flex-direction: column;
+    font-size: 20.83px;
+    align-items: end;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 45px;
+}
+.navbar>.container-fluid {
+    align-items: flex-start;
+}
+header {
+  padding-top: 57px;
+  height: 825px;
+  background-image: url(background.jpg);
+}
+.banner_content {
+    padding-bottom: 75px;
+}
+.banner_content h5 {
+    font-size: 23.65px;
+    border: 2px dashed;
+    display: inline-block;
+    padding: 6px 9px 2px;
+    font-family: var(--secendary_font);
+}
+.banner_content h1 {
+    font-size: 143.3px;
+    font-family: var(--title_font);
+    text-shadow: var(--shadow);
+}
+.banner_content h3 {
+   font-size: 56.49px;
+   font-family: var(--title_font);
+   text-shadow: var(--shadow);
+}
+.burger_img img {
+    transform: translateY(-1cm)scale(1.4);
+}
+.discount {
+    background-color: var(--red_color);
+    position: relative;
+    width: 175px;
+    height: 175px;
+    left: 40px;
+    bottom: 294px;
+    border-radius: 119px;
+    color: white;
+    padding: 10px;
+}
+.offer {
+    border: 2px dashed;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 24PX;
+}
+.offer h1 {
+    font-size: 83.33px;
+    font-family: var(--secendary_font);
+}
+.offer h1 strong {
+    font-size: 30.37px;
+}
+.offer h1 span {
+    font-size: 33.4px;
+    display: block;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+.manu_section {
+    padding: 80px 0;
+}
+.container {
+    margin: auto !important;
+}
+.manu {
+    position: relative;
+}
+.manue_title {
+    font-family: var(--secendary_font);
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 19px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.manu h3 {
+    font-size: 25px;
+}
+.manu h1 {
+    font-size: 41.57px;
+}
+.heading h4 {
+    display: inline-block;
+    background-color: #ffc045;
+    color: black;
+    padding: 14px;
+    font-size: 26px;
+    font-family: var(--secendary_font);
+    margin-bottom: 40px !important;
+}
+.heading h1 {
+    font-size: 50px;
+    font-family: var(--title_font);
+    margin-bottom: 31px ;
+}
+.heading p {
+    font-size: 17px;
+}
+.product {
+    text-align: center;
+}
+.product img {
+    height: 297px;
+    object-fit: contain;
+}
+.product h1 {
+    font-size: 37.5px;
+    font-family: var(--secendary_font);
+}
+.product p {
+    font-size: 17px;
+    margin: 12px 0 !important;
+    font-family: var(--default_font);
+}
+.btn_custom {
+    background-color: var(--red_color);
+    color: #ffff;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 7px 22px;
+    letter-spacing: 1px;
+    font-family: var(--title_font);
+}
+.event {
+    margin: 150px 0 125px !important;
+}
+.area {
+    border: none;
+    box-shadow: 8px 8px 13px 0px #00000036;
+    padding: 25px 0;
+}
+.event_section {
+    padding: 65px 44px 0 54px;
+}
+.event_section h4 {
+    font-size: 29.17px;
+    font-family: var(--secendary_font);
+}
+.event_section h1 {
+    font-size: 29.17px;
+    font-family: var(--title_font);
+}
+.event_section p{
+    font-size: 13.83px;
+    font-family: var(--default_font);
+}
+.ellipse {
+    padding-top: 98px;
+}
+.reservation {
+    margin-bottom: 87px !important ;
+}
+.reservation h4 {
+    font-size: 29.17px;
+    font-family: var(--secendary_font);
+    letter-spacing: 2px;
+    margin-bottom: 22px !important;
+}
+.reservation h1{
+    font-size: 50px;
+    font-family: var(--title_font);
+}
+.chart {
+    display: flex;
+    justify-content: center;
+}
+.chart li {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 18px 306px 18px 10px;
+    border-radius: 4px;
+    margin: 10px !important;
+}
